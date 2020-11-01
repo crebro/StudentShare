@@ -66,7 +66,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Set up StudentShare on Your Machine
 
-Download [Xampp]('https://www.apachefriends.org/index.html') or [Laragon]('https://laragon.org/)
+Download [Xampp](https://www.apachefriends.org/index.html) or [Laragon](https://laragon.org/)
 Any will do but make sure that they are running
 **Apache** and **MySQL** Perfectly
 

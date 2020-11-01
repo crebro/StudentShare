@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -58,4 +58,40 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
+
+# StudentShare
+
+**Every person Has the Right to Learn and StudentShare is a platform for people to share and learn together as a tem.**
+
+## Set up StudentShare on Your Machine
+
+Download [Xampp]('https://www.apachefriends.org/index.html') or [Laragon]('https://laragon.org/)
+Any will do but make sure that they are running
+**Apache** and **MySQL** Perfectly
+
+Create a Database named `studentshare`
+Change the name of the database in the .env
+file if you create a database with another name
+
+Use the following command in your shell with the project directory opened
+
+```shell
+composer update
+```
+
+Make sure you have composer installed
+
+and
+
+```shell
+php artisan migrate
+```
+
+After all that is done you can run the
+app using the command:
+
+```shell
+php artisan serve
+
+```

@@ -1,0 +1,61 @@
+.groupsToJoin {
+    margin-top: 20px;
+    padding: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.groups__title {
+    text-align: center;
+    font-size: 30px;
+}
+.groups {
+    max-width: 750px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.group {
+    border-radius: 4px;
+    background-color: #3b372a;
+    margin: 3px;
+    padding: 20px;
+    width: 200px;
+}
+.group__title {
+    border-radius: 4px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+}
+.group__members {
+    padding: 20px;
+    height: 90px;
+    max-height: 90px;
+    overflow-y: scroll;
+}
+.group__members::-webkit-scrollbar-track {
+    border-radius: 25px;
+}
+.group__members::-webkit-scrollbar-thumb {
+    background: rgb(139, 139, 139);
+    border-radius: 10px;
+}
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #00a6ff;
+    color: white;
+    margin-top: 10px;
+    max-width: 85px;
+}
+.btn:hover {
+    cursor: pointer;
+}

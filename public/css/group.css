@@ -1,0 +1,92 @@
+.group {
+    margin-top: 20px;
+    padding: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#notInGroup {
+    font-size: 40px;
+}
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #00a6ff;
+    color: white;
+    margin-top: 10px;
+    max-width: auto;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.chat {
+    border-right: 2px solid white;
+    padding: 20px;
+    margin: 10;
+    margin: 10;
+    /* flex: 1; */
+}
+.files {
+    padding: 20px;
+    /* flex: 2; */
+    margin: 10;
+    margin: 10;
+}
+.title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.chatBox {
+    border-radius: 10px;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: white;
+}
+.chatForm {
+    display: flex;
+}
+.chatItem {
+    width: 200px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.requestItem {
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputfile {
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+.filesBox {
+    border-radius: 10px;
+    height: 400px;
+    width: 425px;
+    overflow-y: scroll;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sharedFile {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    color: black;
+}

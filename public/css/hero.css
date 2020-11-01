@@ -1,0 +1,28 @@
+.hero__body {
+    margin-top: 20px;
+    padding: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.hero__title {
+    font-size: 50px;
+}
+
+.hero__button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #00a6ff;
+    color: white;
+    margin-top: 10px;
+    max-width: 85px;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+}
